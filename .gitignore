@@ -1,0 +1,30 @@
+# Build
+GNU ARM v*/
+*.o
+*.d
+*.axf
+*.out
+*.map
+*.hex
+*.bin
+*.s37
+*.gbl
+
+# Arquivos locais do Studio/Eclipse (ocultos no Project Explorer)
+.projectlinkstore
+.uceditor/
+trashed_modified_files/
+.settings/
+*.launch
+.project
+.cproject
+
+# SDK (regenerado pelo Project Configurator)
+simplicity_sdk_*/
+# clangd (compile_commands.json tem caminhos desta maquina: gerar com: python .vscode/studio.py sync)
+compile_commands.json
+.cache/
+
+# Python (script .vscode/studio.py)
+__pycache__/
+*.pyc

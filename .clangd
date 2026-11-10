@@ -1,0 +1,5 @@
+CompileFlags:
+  # Flags do GCC que o clang nao entende
+  Remove: [-mno-sched-prolog, --specs=*, -fno-lto]
+Diagnostics:
+  UnusedIncludes: None

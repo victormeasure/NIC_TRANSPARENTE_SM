@@ -1,0 +1,24 @@
+{
+  // Substitui o clangd.arguments global (que aponta para o compile_commands.json do bt_ncp)
+  "clangd.arguments": [
+    "--compile-commands-dir=${workspaceFolder}",
+    "--query-driver=C:/SiliconLabs/SimplicityStudio/v5/developer/toolchains/gnu_arm/**/arm-none-eabi-gcc*",
+    "--background-index",
+    "--header-insertion=never",
+    "--clang-tidy=false"
+  ],
+  // Liga os atalhos do keybindings.json do usuario (Ctrl+Alt+N e F5) so neste tipo de projeto
+  "simplicityStudio.projeto": true,
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "files.associations": {
+    "*.h": "c"
+  },
+  "files.exclude": {
+    "trashed_modified_files": true
+  },
+  "search.exclude": {
+    "GNU ARM v12.2.1 - Debug": true,
+    "GNU ARM v12.2.1 - Release": true,
+    ".cache": true
+  }
+}
