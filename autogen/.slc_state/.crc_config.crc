@@ -1,0 +1,7 @@
+#CRC Codes for initially generated config files -- do not modify!
+sl_clock_manager_oscillator_config.h=-762074838
+sl_clock_manager_tree_config.h=1851016341
+sl_core_config.h=-119586893
+sl_device_init_dcdc_config.h=-1134833866
+sl_device_init_emu_config.h=622680131
+sl_memory_manager_region_config.h=-132681117
